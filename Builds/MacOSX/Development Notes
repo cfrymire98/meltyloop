@@ -1,0 +1,33 @@
+Dev. Process:
+
+1. Add parameters, learn about how to implement a discrete GUI element for the bars or change the parameter type
+Solved: ProcessorValueTree and boolean parameters for each of the bar values I would like to give the user
+
+example: https://github.com/ffAudio/ffTapeDelay
+
+2. Research the pros/cons of using the JUCE audiobuffer object vs a delay line for storing the replay data (or just an array)
+
+3. Convert bars to samps by accessing the tempo from DAW
+
+4. Figure out how to play from the buffer at half speed and/or pitched down at half the speed
+
+5. Design an algorithm for calculating the fade gain at each replay sample with reference to the length of the buffer
+
+6. GUI
+
+
+
+Bonus Goals Given Time:
+
+1. Add a speed parameter for the wet signal
+
+2. Rename the source files to make it more personalized
+
+
+Random Notes:
+
+Make sure that if all bar length params are set to false that there is a default set in the process block
+
+Worst Case:
+
+Give the user no parameters besides wet dry and do a set bar length to guarantee some functionality for the presentation
