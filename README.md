@@ -18,7 +18,7 @@ Specifies the replay speed of the looped audio. Intuitively, slower speed create
 -**Fade In/Out** 
 
 Use this parameter to shape the envelope of the loop. Combining fade values
-with loops that don't modify pitch allows you to emulate side chain compression
+with loops that don't modify pitch allows you to emulate side chain compression.
 
 ### Future:
 
