@@ -2,6 +2,9 @@
 
 ## A time-based audio plugin by Conor Frymire
 
+Melty loop is a time-stretching looping effect used to morph audio over repeating lengths of musical measures. This effect
+is inspired by FL-Studio's Gross Beat and is in the form of a VST to be compatible with all popular DAWS.
+
 ### Features:
 
 -**Loop Duration**
